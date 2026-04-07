@@ -12,34 +12,34 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+  title: "Nahom Melese - Software Engineer",
+  description: "Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
   keywords: [
-    "Ibrahim Memon",
+    "Nahom Melese",
     "Software Engineer",
-    "UI/UX Designer",
-    "Frontend Developer",
+    "Fullstack Developer",
     "React Developer",
-    "Next.js Developer",
+    "Express.js Developer",
+    "Angular.js Developer",
     "Web Designer",
-    "WebHR Engineer",
-    "Portfolio",
+    "Mobile App Developer",
+    "Flutter",
   ],
-  authors: [{ name: "Ibrahim Memon" }],
-  creator: "Ibrahim Memon",
-  publisher: "Ibrahim Memon",
+  authors: [{ name: "Nahom Melese" }],
+  creator: "Nahom Melese",
+  publisher: "Nahom Melese",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://ibiimemon.com",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
+    title: "Nahom Melese - Software Engineer",
     description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
-    siteName: "Ibrahim Memon Portfolio",
+    siteName: "Nahom Melese Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "Nahom Melese - Software Engineer ",
+    description: "A Fullstack Developer at WebHR.",
   },
   robots: {
     index: true,
@@ -71,8 +71,7 @@ export default function RootLayout({
         <link rel="canonical" href="https://ibiimemon.com" />
       </head>
       <body
-        className={`${poppins.variable} font-sans antialiased`}
-      >
+        className={`${poppins.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

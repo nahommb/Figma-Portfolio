@@ -4,6 +4,7 @@ import Experience from "./components/Experience";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Skills from "./components/Skills";
 
 export default function Home(): React.JSX.Element {
   return (
@@ -11,6 +12,7 @@ export default function Home(): React.JSX.Element {
       <Header />
       <Banner />
       <Experience />
+      <Skills />
       <About />
       <Projects />
       <Footer />

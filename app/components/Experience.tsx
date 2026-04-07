@@ -11,28 +11,28 @@ interface ExperienceCard {
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "WebHR - HR Management App",
-    description: "WebHR automates all of your company's HR processes such as Recruitment, Onboarding, Payroll, Time & Attendance, Leaves & PTO, Performance, and much more.",
+    title: "Full Stack Developer - Ethio Solutions",
+    description: "As a Full Stack Developer at Ethio Solutions, I was responsible for designing and implementing web applications using a variety of technologies, including React.js, Node.js, and SQL. I collaborated with cross-functional teams to deliver high-quality software solutions that met client requirements and contributed to the overall success of the company.",
     icon: "/cards/card-1.png",
   },
   {
     id: 2,
-    title: "WebHR Kiosk - Time Clock Kiosk",
-    description: "WebHR Kiosk is a time clock kiosk that allows you to clock in and out of your work. It is a simple and easy to use app that allows you to clock in and out of your work.",
+    title: "Frontend Developer & QA Tester - Tria",
+    description: "Frontend Developer & QA Tester at Tria, a leading software development company specializing in web and mobile applications. In this role, I was responsible for designing and implementing user interfaces using React.js, ensuring seamless user experiences across various devices. Additionally, I conducted thorough testing to identify and resolve bugs, contributing to the overall quality and performance of the applications.",
     icon: "/cards/card-2.png",
   },
   {
     id: 3,
-    title: "Somezing - AI-Powered Agents",
-    description: "Somezing is a AI-Powered Agents to Automate Your Workflows. It is a simple and easy to use app that allows you to automate your workflows.",
+    title: "Freelance Developer",
+    description: "As a freelance developer, I have worked on various projects, including web development, mobile app development, and software development. I have experience working with clients from different industries and have delivered high-quality solutions that meet their needs.",
     icon: "/cards/card-3.png",
   },
-  {
-    id: 4,
-    title: "FileIT - File Sharing App",
-    description: "FileIT is a file sharing app that allows you to share files with your friends and family. It is a simple and easy to use app that allows you to share files with your friends and family.",
-    icon: "/cards/card-4.png",
-  },
+  // {
+  //   id: 4,
+  //   title: "FileIT - File Sharing App",
+  //   description: "FileIT is a file sharing app that allows you to share files with your friends and family. It is a simple and easy to use app that allows you to share files with your friends and family.",
+  //   icon: "/cards/card-4.png",
+  // },
 ];
 
 export default function Experience(): React.JSX.Element {
@@ -64,14 +64,14 @@ export default function Experience(): React.JSX.Element {
               <p className="text-white/70 text-sm mb-4">
                 {card.description}
               </p>
-              <Link
+              {/* <Link
                 href="https://ibiimemon.com/lab"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-purple-400 hover:text-purple-300 font-medium text-sm transition-colors inline-block"
               >
                 LEARN MORE →
-              </Link>
+              </Link> */}
               </div>
 
             </div>

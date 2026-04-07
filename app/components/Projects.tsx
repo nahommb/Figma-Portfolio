@@ -5,22 +5,29 @@ interface Project {
   title: string;
   description: string;
   image: string;
-  link?: string;
+  // link?: string;
 }
 
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "NeuraWeb – Futuristic AI Website Landing Design",
-    description: "A sleek, dark-themed AI-powered landing page concept built in Figma. Designed for modern startups and futuristic digital products, it features glowing neon visuals, immersive UI, and a dynamic tone. The design encapsulates the cutting-edge possibilities of AI and tech, offering a glimpse into the future of online experiences for tech-forward companies.",
-    link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
+    title: "Ethio Pay ",
+    description: "A secure and user-friendly fintech application designed to enable seamless money transfers from international credit cards to Ethiopian bank accounts. The system ensures fast processing, reliable transaction handling, and an intuitive user experience.",
+    // link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
     image: "/projects/project-1.png",
   },
   {
     id: 2,
-    title: "Apple Vision Pro – HR Software Design",
-    description: "A futuristic HR software concept designed for Apple Vision Pro, built in Figma to reimagine attendance, leave tracking, and employee experience - all in one immersive interface.",
-   link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
+    title: "Niya Sports Wear E-commerce",
+    description: "E-commerce platform specializing in sportswear, offering a wide range of athletic apparel and accessories. The website provides a seamless shopping experience with features like product browsing, secure checkout, and personalized recommendations to cater to the needs of sports enthusiasts.",
+  //  link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
+    image: "/projects/project-2.png",
+  },
+   {
+    id: 3,
+    title: "Ethio Solutions",
+    description: "A comprehensive solution for managing and optimizing business operations in Ethiopia. The platform provides tools for financial management, inventory control, and customer relationship management to support the growth and efficiency of local businesses.",
+  //  link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
     image: "/projects/project-2.png",
   },
 ];
@@ -56,7 +63,7 @@ export default function Projects(): React.JSX.Element {
                     </div>
                   </div>
                   {/* Website link */}
-                  {project.link && (
+                  {/* {project.link && (
                     <div className="flex gap-4">
                       <a
                         href={project.link}
@@ -81,11 +88,11 @@ export default function Projects(): React.JSX.Element {
                         </svg>
                       </a>
                     </div>
-                  )}
+                  )} */}
                 </div>
 
                 {/* Image Content */}
-                <div className={`${isEven ? "lg:col-start-1 lg:row-start-1" : ""}`}>
+                {/* <div className={`${isEven ? "lg:col-start-1 lg:row-start-1" : ""}`}>
                   <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 p-2 lg:p-3 shadow-2xl">
                     <div className="relative w-full h-full rounded-lg overflow-hidden">
                       <Image
@@ -97,7 +104,7 @@ export default function Projects(): React.JSX.Element {
                       />
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           );
