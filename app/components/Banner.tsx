@@ -154,6 +154,17 @@ export default function Banner(): React.JSX.Element {
           </p>
           
         </div>
+        <div className="mt-4">
+           <a
+          href="/assets/cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg"
+        >
+          View / Download CV
+        </a>
+        </div>
+       
       </div>
     </section>
   );
